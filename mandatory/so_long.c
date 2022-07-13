@@ -80,10 +80,8 @@ void	map_dimension(t_var *vars, int fd)
 
 void	get_map(t_var *vars, char *argv)
 {
-	int		i;
 	int		fd;
 
-	i = 0;
 	fd = open(argv, O_RDONLY);
 	if (fd < 0)
 	{
